@@ -1,0 +1,6 @@
+framework module ECCyleScrollView {
+  umbrella header "ECCyleScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

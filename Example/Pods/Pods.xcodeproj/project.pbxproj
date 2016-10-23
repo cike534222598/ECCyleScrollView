@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F86CAB400BAF6CCEDF9925FD24E666 /* Pods-ECCyleScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35804655C87B8934CFC6A565A4023DAD /* Pods-ECCyleScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46F2FBAB38BAAE1EFA30562B4CE05903 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4B0209918B5E33607D9A9738F80ABF87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4DF787D32B9B47DE14007A948038C8D3 /* ECCycleScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A56708BC0D4F7B24AE20F1EA5F721FF /* ECCycleScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5778BA4F1233F1E7B216182B6FDB3504 /* Pods-ECCyleScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C48351CF0F32751DC974E19797EC7073 /* Pods-ECCyleScrollView_Example-dummy.m */; };
+		AB538528D97A7E1E20BC54ED04D7E538 /* ECCyleScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CE30CEC7560FADCCCFFA9C343B18B8 /* ECCyleScrollView-dummy.m */; };
+		E3879D4660A3368C1EA40DC13F50E8EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EED40CF2A64D2B5A54F035B1855A32CF /* ECCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8EDF3CF500DB7C27238C543FBB5C4 /* ECCycleScrollView.m */; };
+		F33D8927571F40E5E8DC714A533B8F4E /* ECCyleScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C0115E3E37589C38FD3AE6BC397B578 /* ECCyleScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F34BFDD1DFE6C3A557BE0B3EF72DD873 /* Pods-ECCyleScrollView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 497F85CA8AF5FC7FEBE67C7705EEAEA3 /* Pods-ECCyleScrollView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5DFCC0895830D11B35C27912CF93DF6 /* Pods-ECCyleScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC82757BBE3766F23F8C33B4C5AA875 /* Pods-ECCyleScrollView_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B049C92101E7EE62B30980F893B3A0C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 935DB900320BCE8E0B2ABC47CF27AC54;
+			remoteInfo = ECCyleScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D8C9EE0C9C9147FD32AC0F83E85B72 /* Pods-ECCyleScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECCyleScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		048D8EAE987E80E47126B862BD331780 /* ECCyleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECCyleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0580055B15B5454151B03A48FC647AE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0802F9A03BAF0A2DEB7CE9557302DBEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CD777C4B511A585DEB467C43FF903C5 /* Pods-ECCyleScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECCyleScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A56708BC0D4F7B24AE20F1EA5F721FF /* ECCycleScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECCycleScrollView.h; sourceTree = "<group>"; };
+		2A3B4990225792044F12E97F946EA572 /* Pods-ECCyleScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ECCyleScrollView_Example.modulemap"; sourceTree = "<group>"; };
+		2A659FC58A4C459B97D2DFC975139D59 /* Pods-ECCyleScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECCyleScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		35804655C87B8934CFC6A565A4023DAD /* Pods-ECCyleScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECCyleScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
+		38758B02A22BD9FFCA347015E1791E2C /* Pods-ECCyleScrollView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECCyleScrollView_Example-resources.sh"; sourceTree = "<group>"; };
+		38E3BFFE1E0624F435E034CB9709EF8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4367DB1FB029B5BC82A9F45DD1272D0C /* Pods_ECCyleScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECCyleScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A47B9BF898AD05D7E8658AF81E7AB5 /* Pods-ECCyleScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECCyleScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		497F85CA8AF5FC7FEBE67C7705EEAEA3 /* Pods-ECCyleScrollView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECCyleScrollView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4E3C22592505A4DDAB5677AF89B7EEEB /* ECCyleScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ECCyleScrollView.modulemap; sourceTree = "<group>"; };
+		500281FF30699F7D98EE83413880BC58 /* Pods-ECCyleScrollView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECCyleScrollView_Tests-resources.sh"; sourceTree = "<group>"; };
+		676D0AEEC3A76E72B2602E8AA4482F7A /* Pods-ECCyleScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECCyleScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BC82757BBE3766F23F8C33B4C5AA875 /* Pods-ECCyleScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECCyleScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
+		76232552F59FDD87DE68E0AEEB15603B /* ECCyleScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ECCyleScrollView.xcconfig; sourceTree = "<group>"; };
+		7C2FB1F4ADC3FA59004D670A57C10A53 /* ECCyleScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECCyleScrollView-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95CE30CEC7560FADCCCFFA9C343B18B8 /* ECCyleScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ECCyleScrollView-dummy.m"; sourceTree = "<group>"; };
+		9A01C8577AA1CDF08D6EC8D7EFB24DA2 /* Pods-ECCyleScrollView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECCyleScrollView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9C0115E3E37589C38FD3AE6BC397B578 /* ECCyleScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECCyleScrollView-umbrella.h"; sourceTree = "<group>"; };
+		9E9B2F805518E1712E2C8D9D13F78285 /* Pods-ECCyleScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECCyleScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A0252D78B9FE162CECAD453023D22A34 /* Pods-ECCyleScrollView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ECCyleScrollView_Tests.modulemap"; sourceTree = "<group>"; };
+		A6219DADAA360ACE6CDFCF6C1D1DD68A /* Pods_ECCyleScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECCyleScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A744D9CECD28A4E0C301D92A37379F47 /* Pods-ECCyleScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECCyleScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A815AF6E2C96E833AB761310403958B7 /* Pods-ECCyleScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECCyleScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C466A90A9A778BB10DDE7934CF82FE23 /* Pods-ECCyleScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECCyleScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C48351CF0F32751DC974E19797EC7073 /* Pods-ECCyleScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECCyleScrollView_Example-dummy.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F5B8EDF3CF500DB7C27238C543FBB5C4 /* ECCycleScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECCycleScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		080FDD68508B2935AC558B0B5AE4AD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F2FBAB38BAAE1EFA30562B4CE05903 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45610BA959D51EA29069D614A3D11C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0209918B5E33607D9A9738F80ABF87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3E5AC40443F2049054B8BFD6E531A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3879D4660A3368C1EA40DC13F50E8EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E32C3D09B123926F6C942744CED83F3 /* ECCyleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				742ECDE055B1AB6700AA1DC0AD05332B /* Classes */,
+			);
+			path = ECCyleScrollView;
+			sourceTree = "<group>";
+		};
+		2B9D09CD5C4282ABBD7F989AAA508A10 /* Pods-ECCyleScrollView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				38E3BFFE1E0624F435E034CB9709EF8D /* Info.plist */,
+				2A3B4990225792044F12E97F946EA572 /* Pods-ECCyleScrollView_Example.modulemap */,
+				A815AF6E2C96E833AB761310403958B7 /* Pods-ECCyleScrollView_Example-acknowledgements.markdown */,
+				2A659FC58A4C459B97D2DFC975139D59 /* Pods-ECCyleScrollView_Example-acknowledgements.plist */,
+				C48351CF0F32751DC974E19797EC7073 /* Pods-ECCyleScrollView_Example-dummy.m */,
+				9E9B2F805518E1712E2C8D9D13F78285 /* Pods-ECCyleScrollView_Example-frameworks.sh */,
+				38758B02A22BD9FFCA347015E1791E2C /* Pods-ECCyleScrollView_Example-resources.sh */,
+				35804655C87B8934CFC6A565A4023DAD /* Pods-ECCyleScrollView_Example-umbrella.h */,
+				A744D9CECD28A4E0C301D92A37379F47 /* Pods-ECCyleScrollView_Example.debug.xcconfig */,
+				03D8C9EE0C9C9147FD32AC0F83E85B72 /* Pods-ECCyleScrollView_Example.release.xcconfig */,
+			);
+			name = "Pods-ECCyleScrollView_Example";
+			path = "Target Support Files/Pods-ECCyleScrollView_Example";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4C7CB0EE24604FED45B315E5511FC08D /* ECCyleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				0E32C3D09B123926F6C942744CED83F3 /* ECCyleScrollView */,
+				79CEFEC20D4844DA1A7F922EB93C38EA /* Support Files */,
+			);
+			name = ECCyleScrollView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		742ECDE055B1AB6700AA1DC0AD05332B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1A56708BC0D4F7B24AE20F1EA5F721FF /* ECCycleScrollView.h */,
+				F5B8EDF3CF500DB7C27238C543FBB5C4 /* ECCycleScrollView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		749269544591729155FC623AEBE47C74 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C7CB0EE24604FED45B315E5511FC08D /* ECCyleScrollView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		757DE27989E805CE09F3409E18D8BAD0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B9D09CD5C4282ABBD7F989AAA508A10 /* Pods-ECCyleScrollView_Example */,
+				8569447D1E82FE6AD6AA56A222B3A023 /* Pods-ECCyleScrollView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		79CEFEC20D4844DA1A7F922EB93C38EA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C22592505A4DDAB5677AF89B7EEEB /* ECCyleScrollView.modulemap */,
+				76232552F59FDD87DE68E0AEEB15603B /* ECCyleScrollView.xcconfig */,
+				95CE30CEC7560FADCCCFFA9C343B18B8 /* ECCyleScrollView-dummy.m */,
+				7C2FB1F4ADC3FA59004D670A57C10A53 /* ECCyleScrollView-prefix.pch */,
+				9C0115E3E37589C38FD3AE6BC397B578 /* ECCyleScrollView-umbrella.h */,
+				0802F9A03BAF0A2DEB7CE9557302DBEA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ECCyleScrollView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				749269544591729155FC623AEBE47C74 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C8A22BF47E3FA4B4D6591E278BEC6AAF /* Products */,
+				757DE27989E805CE09F3409E18D8BAD0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8569447D1E82FE6AD6AA56A222B3A023 /* Pods-ECCyleScrollView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0580055B15B5454151B03A48FC647AE1 /* Info.plist */,
+				A0252D78B9FE162CECAD453023D22A34 /* Pods-ECCyleScrollView_Tests.modulemap */,
+				0CD777C4B511A585DEB467C43FF903C5 /* Pods-ECCyleScrollView_Tests-acknowledgements.markdown */,
+				676D0AEEC3A76E72B2602E8AA4482F7A /* Pods-ECCyleScrollView_Tests-acknowledgements.plist */,
+				6BC82757BBE3766F23F8C33B4C5AA875 /* Pods-ECCyleScrollView_Tests-dummy.m */,
+				9A01C8577AA1CDF08D6EC8D7EFB24DA2 /* Pods-ECCyleScrollView_Tests-frameworks.sh */,
+				500281FF30699F7D98EE83413880BC58 /* Pods-ECCyleScrollView_Tests-resources.sh */,
+				497F85CA8AF5FC7FEBE67C7705EEAEA3 /* Pods-ECCyleScrollView_Tests-umbrella.h */,
+				48A47B9BF898AD05D7E8658AF81E7AB5 /* Pods-ECCyleScrollView_Tests.debug.xcconfig */,
+				C466A90A9A778BB10DDE7934CF82FE23 /* Pods-ECCyleScrollView_Tests.release.xcconfig */,
+			);
+			name = "Pods-ECCyleScrollView_Tests";
+			path = "Target Support Files/Pods-ECCyleScrollView_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8A22BF47E3FA4B4D6591E278BEC6AAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048D8EAE987E80E47126B862BD331780 /* ECCyleScrollView.framework */,
+				A6219DADAA360ACE6CDFCF6C1D1DD68A /* Pods_ECCyleScrollView_Example.framework */,
+				4367DB1FB029B5BC82A9F45DD1272D0C /* Pods_ECCyleScrollView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B4AA8D87B60402F0693D547708326B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34BFDD1DFE6C3A557BE0B3EF72DD873 /* Pods-ECCyleScrollView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9601DE8681D74C68DD153759442EE021 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF787D32B9B47DE14007A948038C8D3 /* ECCycleScrollView.h in Headers */,
+				F33D8927571F40E5E8DC714A533B8F4E /* ECCyleScrollView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C51C064B587881E568A211876FE944E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F86CAB400BAF6CCEDF9925FD24E666 /* Pods-ECCyleScrollView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39B13D3C2D3ABAE436D5FB6AE73CB240 /* Pods-ECCyleScrollView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BA6673BB61020E0B481B068D85EE3DD /* Build configuration list for PBXNativeTarget "Pods-ECCyleScrollView_Example" */;
+			buildPhases = (
+				5C4796D3B9B1464A49C559BEC2C9109F /* Sources */,
+				6D3E5AC40443F2049054B8BFD6E531A4 /* Frameworks */,
+				C51C064B587881E568A211876FE944E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				709394DEBB16B455BAAAD7E7BB5F4B42 /* PBXTargetDependency */,
+			);
+			name = "Pods-ECCyleScrollView_Example";
+			productName = "Pods-ECCyleScrollView_Example";
+			productReference = A6219DADAA360ACE6CDFCF6C1D1DD68A /* Pods_ECCyleScrollView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60794BB2EFEA14572741DABA6354DB26 /* Pods-ECCyleScrollView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932E90A361C077C7A67A27208B137882 /* Build configuration list for PBXNativeTarget "Pods-ECCyleScrollView_Tests" */;
+			buildPhases = (
+				763483AEE8C2626649675A38B5A868CE /* Sources */,
+				080FDD68508B2935AC558B0B5AE4AD93 /* Frameworks */,
+				4B4AA8D87B60402F0693D547708326B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ECCyleScrollView_Tests";
+			productName = "Pods-ECCyleScrollView_Tests";
+			productReference = 4367DB1FB029B5BC82A9F45DD1272D0C /* Pods_ECCyleScrollView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		935DB900320BCE8E0B2ABC47CF27AC54 /* ECCyleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D2E88D8E78B57F3E32759AA5E05E873 /* Build configuration list for PBXNativeTarget "ECCyleScrollView" */;
+			buildPhases = (
+				C87AE03E764AC0F774D9D9C80D9B75AE /* Sources */,
+				45610BA959D51EA29069D614A3D11C87 /* Frameworks */,
+				9601DE8681D74C68DD153759442EE021 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECCyleScrollView;
+			productName = ECCyleScrollView;
+			productReference = 048D8EAE987E80E47126B862BD331780 /* ECCyleScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C8A22BF47E3FA4B4D6591E278BEC6AAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				935DB900320BCE8E0B2ABC47CF27AC54 /* ECCyleScrollView */,
+				39B13D3C2D3ABAE436D5FB6AE73CB240 /* Pods-ECCyleScrollView_Example */,
+				60794BB2EFEA14572741DABA6354DB26 /* Pods-ECCyleScrollView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C4796D3B9B1464A49C559BEC2C9109F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5778BA4F1233F1E7B216182B6FDB3504 /* Pods-ECCyleScrollView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763483AEE8C2626649675A38B5A868CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DFCC0895830D11B35C27912CF93DF6 /* Pods-ECCyleScrollView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87AE03E764AC0F774D9D9C80D9B75AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED40CF2A64D2B5A54F035B1855A32CF /* ECCycleScrollView.m in Sources */,
+				AB538528D97A7E1E20BC54ED04D7E538 /* ECCyleScrollView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		709394DEBB16B455BAAAD7E7BB5F4B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ECCyleScrollView;
+			target = 935DB900320BCE8E0B2ABC47CF27AC54 /* ECCyleScrollView */;
+			targetProxy = B049C92101E7EE62B30980F893B3A0C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05113355D2ADA5A81E86E9F023F42C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C466A90A9A778BB10DDE7934CF82FE23 /* Pods-ECCyleScrollView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECCyleScrollView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECCyleScrollView_Tests/Pods-ECCyleScrollView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ECCyleScrollView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C34E3040104A705237C176FA25728CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A47B9BF898AD05D7E8658AF81E7AB5 /* Pods-ECCyleScrollView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECCyleScrollView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECCyleScrollView_Tests/Pods-ECCyleScrollView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ECCyleScrollView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2283EA5C60904469660A46FC8512ECA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76232552F59FDD87DE68E0AEEB15603B /* ECCyleScrollView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECCyleScrollView/ECCyleScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECCyleScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECCyleScrollView/ECCyleScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ECCyleScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EE507F5F3F9F14F734CD362B3349BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03D8C9EE0C9C9147FD32AC0F83E85B72 /* Pods-ECCyleScrollView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECCyleScrollView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECCyleScrollView_Example/Pods-ECCyleScrollView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ECCyleScrollView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92C4F1E183F4C5A42897E63F1CCAF396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76232552F59FDD87DE68E0AEEB15603B /* ECCyleScrollView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECCyleScrollView/ECCyleScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECCyleScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECCyleScrollView/ECCyleScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ECCyleScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E1852129E1190570B542C8BAF3D3069E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A744D9CECD28A4E0C301D92A37379F47 /* Pods-ECCyleScrollView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECCyleScrollView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECCyleScrollView_Example/Pods-ECCyleScrollView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ECCyleScrollView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D2E88D8E78B57F3E32759AA5E05E873 /* Build configuration list for PBXNativeTarget "ECCyleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2283EA5C60904469660A46FC8512ECA7 /* Debug */,
+				92C4F1E183F4C5A42897E63F1CCAF396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932E90A361C077C7A67A27208B137882 /* Build configuration list for PBXNativeTarget "Pods-ECCyleScrollView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C34E3040104A705237C176FA25728CD /* Debug */,
+				05113355D2ADA5A81E86E9F023F42C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA6673BB61020E0B481B068D85EE3DD /* Build configuration list for PBXNativeTarget "Pods-ECCyleScrollView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1852129E1190570B542C8BAF3D3069E /* Debug */,
+				8EE507F5F3F9F14F734CD362B3349BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

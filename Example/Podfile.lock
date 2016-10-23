@@ -1,0 +1,16 @@
+PODS:
+  - ECCyleScrollView (1.0.0)
+
+DEPENDENCIES:
+  - ECCyleScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  ECCyleScrollView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ECCyleScrollView: 16dae704fed29009c0c95b1f6a898ec30b3f8452
+
+PODFILE CHECKSUM: ecac82cb67664c92042e4bb6cf3ffa2ebf5cd072
+
+COCOAPODS: 1.1.0.beta.2
