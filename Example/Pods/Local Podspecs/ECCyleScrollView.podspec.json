@@ -1,9 +1,9 @@
 {
   "name": "ECCyleScrollView",
   "version": "1.0.0",
-  "summary": "A short description of ECCyleScrollView.",
+  "summary": "一个好用的循环滚动视图.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/ECCyleScrollView",
+  "homepage": "https://github.com/cike534222598/ECCyleScrollView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
