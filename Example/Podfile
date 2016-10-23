@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ECCyleScrollView_Example' do
+  pod 'ECCyleScrollView', :path => '../'
+
+  target 'ECCyleScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
